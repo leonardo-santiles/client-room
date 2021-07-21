@@ -1,27 +1,45 @@
-# ClientRoom
+<h2>Digital Innovation One: Expert Class - Criando um gerenciador de salas de reuniões com Java e Angular</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+Nessa live coding desenvolvemos uma API com Spring Boot para gerenciar salas de reunião. Utilizamos o Spring Data para persistência de dados e o banco in-memory H2. O Front End consiste em uma SPA que foi escrito em Angular.
 
-## Development server
+Durante a sessão, foram desenvolvidos e abordados os seguintes tópicos:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Setup inicial de projeto com o Spring Boot Initialzr
+* Criação de modelo de dados para o mapeamento de entidades em bancos de dados
+* Desenvolvimento de operações de gerenciamento das salas de reuiões (criação, listagem, atualização e remoção de salas).
+* Relação de cada uma das operações acima com o padrão arquitetural REST.
+* O Front End que consumiu a API foi escrito am Angular.
 
-## Code scaffolding
+Para executar o projeto no terminal, digite o seguinte comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell script
+ng serve
+```
 
-## Build
+Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+```
+http://localhost:4200/
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+A aplicação será recarregado automaticamente se você alterar qualquer um dos arquivos de origem!
 
-## Running unit tests
+São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Java 11 ou versões superiores.
+* Angular CLI versão 12.1.2 ou superiores.
+* Maven 3.6.3 ou versões superiores.
+* Intellj IDEA Community Edition ou sua IDE favorita.
+* Controle de versão GIT instalado na sua máquina.
+* Conta no GitHub para o armazenamento do seu projeto.
+* Muita vontade de aprender e compartilhar conhecimento :)
 
-## Running end-to-end tests
+Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* [Referência do Intellij IDEA Community, para download](https://www.jetbrains.com/idea/download)
+* [Palheta de atalhos de comandos do Intellij](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+* [Site oficial do Spring](https://spring.io/)
+* [Site oficial do Spring Initialzr, para setup do projeto](https://start.spring.io/)
+* [Site oficial do GIT](https://git-scm.com/)
+* [Site oficial do GitHub](http://github.com/)
+* [Documentação oficial do Lombok](https://projectlombok.org/)
+* [Angular CLI](https://github.com/angular/angular-cli)
